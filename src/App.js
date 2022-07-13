@@ -14,9 +14,9 @@ export default function App(){
         )
     }) 
     return(
-        <>
+        <div id="body">
             <Navbar />
             {location}
-        </>
+        </div>
     )
 }
